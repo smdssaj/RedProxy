@@ -1,6 +1,8 @@
 {
-  "name": "app",
+  "name": "red_proxy",
   "version": "0.1.0",
+  "author": "Sultan Almotiri",
+  "description": "a web proxy and a tool for penetration testing",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
