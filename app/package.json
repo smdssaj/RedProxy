@@ -16,6 +16,8 @@
   "main": "background.js",
   "dependencies": {
     "core-js": "^3.6.5",
+    "got": "^11.8.2",
+    "semver": "^7.3.4",
     "vue": "^2.6.11"
   },
   "devDependencies": {
