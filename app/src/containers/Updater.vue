@@ -33,6 +33,7 @@
   body{
     user-select: none;
     -webkit-user-select: none;
+    /* make the window dragable from its body */
     -webkit-app-region: drag;
   }
 

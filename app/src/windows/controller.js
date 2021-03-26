@@ -36,14 +36,7 @@ async function controller() {
 
     // open dashboard window.
     const bwDashboardWindow = await WindowCreator(objDashboardWindowConfig);
-    bwDashboardWindow.maximize();
-    try{
-
-        bwDashboardWindow.webContents.openDevTools();
-    }
-    catch(e){
-        console.log(e)
-    }
+    // bwDashboardWindow.webContents.openDevTools();
 }
 
 export default controller;
