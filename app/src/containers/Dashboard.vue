@@ -1,14 +1,29 @@
 <template>
   <div id="app">
-      <h1 id="app_title">RedProxy</h1>
+    <Sidebar header="RedProxy" :listOfItems="listOfItems"/>
   </div>
 </template>
 
 <script>
-  const objDashboardContainer = {
-    name: "Dashboard"
+  import Sidebar from '../components/Sidebar';
+
+  const DashboardContainer = {
+    name: "Dashboard",
+
+    data: ()=> {
+      return {
+        listOfItems: [
+          { id: 0 ,label: "Add new proxy", icon: "add_server" },
+        ]
+      }
+    },
+
+    components: {
+      Sidebar,
+    }
+
   }
-  export default objDashboardContainer;
+  export default DashboardContainer;
 </script>
 
 <style >
@@ -25,6 +40,7 @@
     height: 100vh;
     width: 100vw;
     background-color: #222527;
+    display: flex;
   }
 
 </style>

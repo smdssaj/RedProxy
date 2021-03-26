@@ -2,7 +2,6 @@ import { GetLastVersion, IsLastVersion } from "./update";
 import WindowCreator from './creator';
 import { objDashboardWindowConfig, objUpdateWindowConfig } from "./config";
 
-
 async function controller() {
 
     // show updater window.
@@ -38,6 +37,13 @@ async function controller() {
     // open dashboard window.
     const bwDashboardWindow = await WindowCreator(objDashboardWindowConfig);
     bwDashboardWindow.maximize();
+    try{
+
+        bwDashboardWindow.webContents.openDevTools();
+    }
+    catch(e){
+        console.log(e)
+    }
 }
 
 export default controller;

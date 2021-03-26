@@ -1,8 +1,4 @@
-import Vue from 'vue'
-import Dashboard from '../../containers/Dashboard.vue'
+import { createApp } from 'vue';
+import Dashboard from '../../containers/Dashboard.vue';
 
-Vue.config.productionTip = false
-
-new Vue({
-  render: h => h(Dashboard),
-}).$mount('#app')
+createApp(Dashboard).mount('#app');

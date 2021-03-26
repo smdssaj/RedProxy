@@ -11,13 +11,13 @@
 <script>
   import Spinner from '../components/Spinner';
 
-  const objUpdaterContainer = {
+  const UpdaterContainer = {
     name: "Updater",
     components: {
       Spinner
     }
   }
-  export default objUpdaterContainer;
+  export default UpdaterContainer;
 </script>
 
 <style >

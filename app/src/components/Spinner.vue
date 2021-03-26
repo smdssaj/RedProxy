@@ -5,11 +5,11 @@
 
 <script>
 
-  const objSpinnerComponent = {
+  const SpinnerComponent = {
       name: "Spinner"
   }
 
-  export default objSpinnerComponent;
+  export default SpinnerComponent;
 </script>
 
 <style>

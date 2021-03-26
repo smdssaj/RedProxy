@@ -1,8 +1,7 @@
 export const objDashboardWindowConfig = {
     attributes: {
-        width: 800,
-        height: 600,
-        frame: false,
+        minWidth: 1000,
+        minHeight: 600,
         webPreferences: {
             nodeIntegration: process.env.ELECTRON_NODE_INTEGRATION,
             contextIsolation: true

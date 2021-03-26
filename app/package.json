@@ -1,9 +1,9 @@
 {
   "name": "red_proxy",
   "version": "0.1.0",
-  "author": "Sultan Almotiri",
-  "description": "a web proxy and a tool for penetration testing",
   "private": true,
+  "description": "a web proxy and a tool for penetration testing",
+  "author": "Sultan Almotiri",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -18,19 +18,19 @@
     "core-js": "^3.6.5",
     "got": "^11.8.2",
     "semver": "^7.3.4",
-    "vue": "^2.6.11"
+    "vue": "^3.0.0-beta.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
     "@vue/cli-plugin-eslint": "~4.5.0",
     "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0-beta.1",
     "babel-eslint": "^10.1.0",
     "electron": "^11.0.0",
     "electron-devtools-installer": "^3.1.0",
     "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-cli-plugin-electron-builder": "~2.0.0-rc.6",
-    "vue-template-compiler": "^2.6.11"
+    "eslint-plugin-vue": "^7.0.0-alpha.0",
+    "vue-cli-plugin-electron-builder": "~2.0.0-rc.6"
   },
   "eslintConfig": {
     "root": true,
@@ -38,7 +38,7 @@
       "node": true
     },
     "extends": [
-      "plugin:vue/essential",
+      "plugin:vue/vue3-essential",
       "eslint:recommended"
     ],
     "parserOptions": {
