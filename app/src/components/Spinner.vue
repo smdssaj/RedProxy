@@ -1,14 +1,15 @@
 <template>
+  <!-- form: https://loading.io/css/ -->
   <div class="lds-ellipsis"><div></div><div></div><div></div><div></div></div>
 </template>
 
 <script>
 
-    const objSpinnerComponent = {
-        name: "Spinner"
-    }
+  const objSpinnerComponent = {
+      name: "Spinner"
+  }
 
-    export default objSpinnerComponent;
+  export default objSpinnerComponent;
 </script>
 
 <style>
